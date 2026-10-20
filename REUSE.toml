@@ -1,0 +1,27 @@
+version = 1
+
+SPDX-PackageName = "magiclane-maps-sdk-activation-companion"
+SPDX-PackageSupplier = "magiclane-developer@users.noreply.github.com"
+SPDX-PackageDownloadLocation = "https://github.com/magiclane/magiclane-maps-sdk-activation-companion"
+SPDX-PackageComment = "Companion app for the offline activation of the Magic Lane Maps SDK."
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2026 Magic Lane International B.V. <info@magiclane.com>"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = [
+    "**/gradle/**",
+    "**/gradle.properties"
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2015-2021 the original authors"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = "assets/fonts/**"
+precedence = "override"
+SPDX-FileCopyrightText = "2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)"
+SPDX-License-Identifier = "OFL-1.1"
